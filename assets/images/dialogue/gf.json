@@ -1,63 +1,102 @@
 {
 	"position": [
-		20,
-		40
+		-20,
+		50
 	],
 	"dialogue_pos": "center",
-	"scale": 1.3,
-	"image": "GF_Dialogue",
+	"scale": 1,
+	"image": "BF_Dialogue",
 	"animations": [
 		{
+			"loop_name": "GFtalkloop copy",
 			"idle_offsets": [
-				-3,
-				-6
+				40,
+				40
 			],
-			"loop_offsets": [
-				0,
-				1
-			],
-			"anim": "talk",
-			"idle_name": "GF0",
-			"loop_name": "GF LOOP"
-		},
-		{
-			"idle_offsets": [
-				70,
-				-11
-			],
-			"anim": "shocked",
-			"loop_offsets": [
-				70,
-				0
-			],
-			"idle_name": "GF SHOCK0",
-			"loop_name": "GF SHOCK LOOP"
-		},
-		{
-			"idle_offsets": [
-				-3,
-				-6
-			],
-			"anim": "confused",
+			"idle_name": "GFtalkloop copy",
+			"anim": "GFtalkIdle",
 			"loop_offsets": [
 				0,
 				0
-			],
-			"idle_name": "GF CONFUSED0",
-			"loop_name": "GF CONFUSED LOOP"
+			]
 		},
 		{
+			"loop_name": "GFangryloop copy",
 			"idle_offsets": [
-				-3,
-				-6
+				60,
+				40
 			],
-			"anim": "demon",
+			"idle_name": "GFangryloop copy",
+			"anim": "GFangry",
 			"loop_offsets": [
 				0,
 				0
+			]
+		},
+		{
+			"loop_name": "GFpissedloop copy",
+			"idle_offsets": [
+				40,
+				40
 			],
-			"idle_name": "GF DEMON0",
-			"loop_name": "GF DEMON LOOP"
+			"idle_name": "GFpissedloop copy",
+			"anim": "GFunamused",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GFConcerned copy",
+			"idle_offsets": [
+				40,
+				40
+			],
+			"idle_name": "GFConcerned copy",
+			"anim": "GFconcerned",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GFNormal copy",
+			"idle_offsets": [
+				40,
+				40
+			],
+			"idle_name": "GFNormal copy",
+			"anim": "GFnormal",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GFexcited copy",
+			"idle_offsets": [
+				40,
+				40
+			],
+			"idle_name": "GFexcited copy",
+			"anim": "GFexcited",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GFConfused copy",
+			"idle_offsets": [
+				40,
+				40
+			],
+			"idle_name": "GFConfused copy",
+			"anim": "GFconfused",
+			"loop_offsets": [
+				0,
+				0
+			]
 		}
 	]
 }
